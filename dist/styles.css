@@ -1,0 +1,44 @@
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    font: 12px verdana;
+}
+
+img {
+    border: white 1px solid;
+}
+
+h1 { 
+    color: white;
+    padding: 10px;
+}
+
+p {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid white;
+    margin: 8px;
+}
