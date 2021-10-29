@@ -1,7 +1,7 @@
-const contact = () => {
+const contact_tab = () => {
 
 };
 
 export {
-    contact
+    contact_tab
 };
